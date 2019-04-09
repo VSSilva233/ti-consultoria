@@ -1,0 +1,10 @@
+.btn-success {
+  &:hover {
+    text-decoration: none;
+    background-color: $btn-hover;
+  }
+  &.rancher {
+    padding: 5px auto;
+    width: 100%;
+  }
+}

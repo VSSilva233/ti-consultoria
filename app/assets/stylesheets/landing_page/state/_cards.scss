@@ -1,0 +1,70 @@
+@media screen and (max-width: 760px) {
+	.rancher-card {
+		text-align: center;
+
+    .row {
+      img {
+        padding-bottom: 6px;
+      }
+    }
+
+    .buttons-container {
+      margin: 60px auto;
+    }
+
+	}
+
+	.carrier-card {
+		text-align: center;
+	}
+
+	.small-card {
+		float: none;
+		margin: 20px 0;
+	}
+
+	footer {
+		text-align: center;
+
+    .footer-menu {
+      display: none;
+    }
+
+    .col-5, .col-4 {
+      max-width: 100%;
+    }
+
+    .offset-1 {
+      margin: 0;
+    }
+
+    .offset-6 {
+      margin-left: 0;
+    }
+	}
+
+	.developed-by {
+		float: none;
+		margin: 0 auto;
+    width: 180px;
+    text-align: center;
+    display: block;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.carrier-card {
+    img {
+      padding-top: 100px;
+    }
+	}
+
+	.small-card {
+    h4 {
+		  font-size: 16px;
+    }
+    p {
+      font-size: 14px;
+    }
+	}
+}

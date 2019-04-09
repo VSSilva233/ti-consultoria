@@ -1,0 +1,21 @@
+.container-fluid {
+  min-height: calc(100vh - 170px);
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.container-fluid, .container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.row {
+  display: block;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.only-mobile {
+  display: none;
+}

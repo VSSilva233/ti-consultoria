@@ -1,0 +1,15 @@
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 1140px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .only-mobile {
+    display: block;
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="10px" viewBox="0 0 28 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_arrowdown</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g transform="translate(-1017.000000, -41.000000)" id="ic_arrowdown" stroke="#FFFFFF">
+            <g transform="translate(1017.000000, 41.000000)">
+                <g transform="translate(2.000000, 2.000000)">
+                    <polyline stroke-width="3" points="24 0 12 6 0 0"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

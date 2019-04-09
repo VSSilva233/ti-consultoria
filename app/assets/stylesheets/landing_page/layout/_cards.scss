@@ -1,0 +1,138 @@
+.rancher-card {
+	line-height: 32px;
+	padding: 60px 0 0 0;
+	margin: 0 auto;
+	background-color: $main-bg-color;
+	display: inline-flex;
+
+  h4 {
+    color: $main-accent-color;
+    padding-top: 60px;
+  }
+
+  p {
+    font-size: 20px;
+    color: $secondary-font-color;
+    margin-bottom: 100px;
+  }
+
+  img {
+    bottom: 0;
+  }
+
+  .buttons-container {
+    margin: 60px 0;
+    max-width: 290px;
+  }
+
+  .row {
+    img {
+      padding: 20px 0;
+      width: 50%;
+    }
+  }
+
+  .smartphone {
+    img {
+      margin-left: 75px;
+      position: absolute;
+      bottom: 0;
+      max-width: calc(100vw / 2 - 200px);
+    }
+  }
+
+  .rancher-links {
+    display: block;
+    max-width: 290px;
+  }
+
+  .android {
+    img {
+      float: left;
+      display: block;
+    }
+  }
+
+  .ios {
+    img {
+      display: block;
+      margin-left: 10px;
+    }
+  }
+
+}
+
+.carrier-card {
+	line-height: 32px;
+	padding: 60px 0;
+	margin: 0 auto;
+  background: image-url('img_head4.png');
+	background-size: cover;
+  background-position: 80% 0%;
+	min-height: 100%;
+	display: inline-flex;
+
+  h4 {
+    color: $main-bg-color;
+    padding-top: 60px;
+  }
+
+  p {
+    color: $main-bg-color;
+    margin-bottom: 100px;
+  }
+
+  img {
+    padding-top: 20px;
+    width: 80%;
+  }
+}
+
+.why-ticonsultoria-card {
+	text-align: center;
+	background-color: $secondary-bg-color;
+	padding: 40px 5px;
+	display: inline-block;
+
+  p {
+    margin-bottom: 28px;
+  }
+
+  h4 {
+    color: $main-accent-color;
+  }
+
+  .container {
+    .row {
+      display: flex;
+    }
+  }
+
+}
+
+.small-card {
+	background-color: $main-bg-color;
+	border-radius: 2px;
+	margin: 0 2% 20px;
+	float: left;
+
+  img {
+    padding-top: 10px;
+  }
+
+  h4 {
+    font-size: 20px;
+    color: $main-accent-color;
+    padding-top: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+.first-card {
+  margin-left: 10%;
+}
+

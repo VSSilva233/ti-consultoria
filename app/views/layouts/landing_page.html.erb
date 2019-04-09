@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <%= render 'layouts/landing_page/header'%>
+
+  <body>
+    <div class="container-fluid">
+      <header class="home" id="topo">
+        <div class="container">
+          <%= render 'layouts/landing_page/menu_home'%>
+
+          <div class="row">
+            <a href='<%= landing_page_index_path %>'>
+              <%= image_tag("logo.png", :alt => "Logo TiConsultoria", :class => "img-responsive center-block", style: "height: 120px; width: 120px;") %>
+            </a>
+            <h1>Conectando especialistas na aréa de tecnologia para resolver seu problema</h1>
+
+            <div class="more-info">
+              <a class="anchorLink" href="#teste" data-hover="teste">
+                SAIBA MAIS<br />
+                <%= image_tag("ic_arrowdown.svg", :alt => "icon_arrow_down") %> 
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row last-row">
+          <span class="txt">Disponível para</span>
+          <a href="" target="_blank">
+            <%= image_tag("btn_android.svg", :alt => "TiConsultoria Android") %>
+          </a>
+          <a href="" target="_blank">
+            <%= image_tag("btn_ios.svg", :alt => "TiConsultoria iOS") %>
+          </a>
+        </div>
+      </header>
+
+      <div class="rancher-card col-12 container" id="teste">
+        <div class="col-xs-12 col-sm-12 col-md-5 offset-md-1">
+          <div class="row">
+            <h4>TiConsultoria</h4>
+            <p>É uma consultoria que presta manutenção na área de TI. Tome um dos nossos deliciosos cafés enquanto fazemos manutenção de seu sistema</p>
+          </div>
+
+          <div class="row">
+            <div class="buttons-container">
+              <div class="row">
+                <div class="rancher-links">
+                  <a href="" class="btn btn-success rancher" target="_blank">Trocar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="smartphone d-none d-sm-block d-md-block">
+          <!-- < %= image_tag("img_devices.png", :alt => "TiConsultoria Devices", :class => "img-responsive") %> -->
+        </div>
+      </div>
+
+      <div class="why-ticonsultoria-card col-12">
+        <div class="container">
+          <h4>POR QUÊ ESCOLHER O TICONSULTORIA?</h4>
+          <p>Bla bla bla bla bla.</p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-4 col-sm-10 col-md-3 small-card first-card">
+              <!-- < %= image_tag("ic_paravc_1.svg", :alt => "") %> -->
+              <h4>SOMOS FODAS</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Integer ex est, hendrerit ac volutpat nec, dictum ac turpis. Maecenas in condimentum velit, nec rutrum leo. Maecenas in condimentum velit, nec rutrum leo.</p>
+            </div>
+
+            <div class="col-xs-4 col-sm-10 col-md-3 small-card">
+              <!-- < %= image_tag("ic_paravc_2.svg", :alt => "") %> -->
+              <h4>PICAS</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Integer ex est, hendrerit ac volutpat nec, dictum ac turpis. Maecenas in condimentum velit, nec rutrum leo. Maecenas in condimentum velit, nec rutrum leo.</p>
+            </div>
+
+            <div class="col-xs-4 col-sm-10 col-md-3 small-card">
+              <!-- < %= image_tag("ic_paravc_3.svg", :alt => "") %> -->
+              <h4>FODAS</h4>
+              <p>Dolor sit amet, consectetur adipiscing elit. Integer ex est, hendrerit ac volutpat nec, dictum ac turpis. Maecenas in condimentum velit, nec rutrum leo. Maecenas in condimentum velit, nec rutrum leo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <%= render 'layouts/landing_page/footer'%>
+  </body>
+</html>
